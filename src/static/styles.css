@@ -87,6 +87,31 @@ section h3 {
   color: #555;
 }
 
+.participants-list {
+  padding-left: 0;
+}
+
+.participants-list li {
+  position: relative;
+  padding-left: 24px;
+  list-style: none;
+}
+
+.participants-list li::before {
+  content: "👤";
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 14px;
+  color: #1a237e;
+}
+
+.participant-icon {
+  margin-right: 8px;
+  color: #1a237e;
+  font-size: 14px;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
